@@ -65,6 +65,14 @@ a:hover {
 }
 
 @media (max-width: 991.98px) {
+    .desktop-container {
+    display: flex;
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 0 auto;
+    justify-content: center;
+}
     .navbar {
         align-items: flex-start;
     }
@@ -161,6 +169,23 @@ a:hover {
 .hero-line img {
     width: 100%;
     height: auto;
+}
+
+@media (max-width: 575.98px) {
+
+    .hero-text-wrap {
+        width: 100%;
+        margin: 0 0; 
+        padding: 60px 20px;
+        box-sizing: border-box;
+    }
+    .hero-text-wrap h1 {
+    margin: 0;
+    font-size: 29px;
+    line-height: 140%;
+    font-weight: 700;
+    letter-spacing: -0 em;
+}
 }
 
 /* PROJECTS */
@@ -278,6 +303,33 @@ a:hover {
     font-weight: 400;
 }
 
+@media (max-width: 575.98px) {
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    /* Behance + Linkedin в одну строку */
+    .footer-links-work a:nth-child(1),
+    .footer-links-work a:nth-child(2) {
+        width: auto;
+    }
+
+    /* email на новую строку */
+    .footer-links-work a:nth-child(3) {
+        width: 100%;
+    }
+
+    /* copyright на новую строку */
+    .footer-links-work .copyright {
+        width: 100%;
+    }
+
+}
+
+/* Contact page */
 .contact-page {
     padding-top: 140px;
     min-height: 100vh;
