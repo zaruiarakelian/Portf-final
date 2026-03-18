@@ -66,13 +66,14 @@ a:hover {
 
 @media (max-width: 991.98px) {
     .desktop-container {
-    display: flex;
-    width: 100%;
-    padding-left: 12px;
-    padding-right: 12px;
-    margin: 0 auto;
-    justify-content: center;
-}
+        display: flex;
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
     .navbar {
         align-items: flex-start;
     }
@@ -172,20 +173,22 @@ a:hover {
 }
 
 @media (max-width: 575.98px) {
-
     .hero-text-wrap {
         width: 100%;
-        margin: 0 0; 
+        margin: 0 0;
         padding: 60px 20px;
         box-sizing: border-box;
     }
     .hero-text-wrap h1 {
-    margin: 0;
-    font-size: 29px;
-    line-height: 140%;
-    font-weight: 700;
-    letter-spacing: -0 em;
-}
+        margin: 0;
+        font-size: 29px;
+        line-height: 140%;
+        font-weight: 700;
+        letter-spacing: -0 em;
+    }
+  .hero-line img {
+    background-image:url("images/line-art-mobile.svg");
+  }
 }
 
 /* PROJECTS */
