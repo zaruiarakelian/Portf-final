@@ -106,7 +106,7 @@ a:hover {
 
 /* HERO */
 .hero-section {
-    background-image: url("../images/background.png");
+    background-image: url("../images/background.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -261,7 +261,7 @@ a:hover {
 .site-footer {
     padding: 10px 36px 60px;
     border-top: 2px solid var(--color-text);
-    background-image: url("../images/footer-background.png");
+    background-image: url("../images/footer-background.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
